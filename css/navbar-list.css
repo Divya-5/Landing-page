@@ -1,0 +1,46 @@
+.header {
+  background-color: darkblue;
+  min-height: 30px;
+  border-bottom: 5px solid black;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-list-part {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-top: 15px;
+  list-style: none;
+}
+
+.content-container {
+  padding: 8px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.section-button {
+  float: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .nav-list-part {
+    font-size: 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+}
